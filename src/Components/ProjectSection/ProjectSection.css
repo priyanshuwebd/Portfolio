@@ -1,0 +1,94 @@
+/* Container for the entire section */
+#projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Make sure it fills the entire viewport height */
+  background-color: #f4f4f4; /* Optional background color */
+  text-align: center;
+  padding: 2rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 3rem; /* Adjust title font size */
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem; /* Adjust spacing between cards */
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.project-card h3 {
+  font-size: 1.5rem; /* Adjust font size of project title */
+  color: #333;
+  margin: 1rem 0;
+}
+
+.project-card p {
+  font-size: 1rem; /* Adjust description font size */
+  color: #666;
+  padding: 0 1rem;
+}
+
+.project-buttons {
+  margin: 1rem 0;
+}
+
+.project-btn,
+.source-btn {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.project-btn {
+  background-color: #007bff;
+}
+
+.project-btn:hover {
+  background-color: #0056b3;
+}
+
+.source-btn {
+  background-color: #28a745;
+}
+
+.source-btn:hover {
+  background-color: #1c7c31;
+}
