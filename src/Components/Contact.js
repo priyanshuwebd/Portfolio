@@ -44,7 +44,7 @@ const Contact = () => {
             <p>Location: <span>Maharashtra, India</span></p>
           </div>
         </div>
-        <form  onSubmit={onsubmit} className="contact-right">
+        <form  onSubmit={onSubmit} className="contact-right">
           <label htmlFor="name">Your Name</label>
           <input type="text" id="name" placeholder="Enter your name" name="name" />
 
