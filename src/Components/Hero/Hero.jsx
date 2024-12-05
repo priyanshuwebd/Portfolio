@@ -11,24 +11,31 @@ const Hero = () => {
 
   return (
     <div id="home" className="hero">
-      <h1>
-        <span>I'm Priyanshu Pande,</span> 
-        <p>From India</p>
-      </h1>
-      <h3>Front-End Developer</h3>
-      <div className="hero-action">
-        <div className="hero-connect" onClick={handleScrollToContact}>
-          Connect with me
+      <div className="hero-content">
+        <h1>
+          <span>I'm Priyanshu Pande,</span>
+          <h5>From India</h5>
+        </h1>
+        <h3>Front-End Developer</h3>
+        <div className="hero-action">
+          <button className="hero-connect" onClick={handleScrollToContact}>
+            Connect with me
+          </button>
+          <a
+            href="/priyanshupanderesume.pdf"
+            target="_blank"
+            download="Priyanshu_Pande_Resume.pdf"
+            className="hero-resume"
+          >
+            My resume
+          </a>
         </div>
-        {/* My Resume Button */}
-        <a
-          href="/priyanshupanderesume.pdf"
-          target="_blank"
-          download="Priyanshu_Pande_Resume.pdf"
-          className="hero-resume"
-        >
-          My resume
-        </a>
+      </div>
+      <div className="hero-image">
+        <img
+          src="/profile-picture.jpg" /* Replace with your profile image path */
+          alt="Priyanshu Pande"
+        />
       </div>
     </div>
   );

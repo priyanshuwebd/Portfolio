@@ -3,9 +3,9 @@ import "./App.css"
 import Navbar from "./Components/Navbar/Navbar"
 import Hero from './Components/Hero/Hero'
 import About from './Components/About/About'
-import ProjectSection from "./Components/ProjectSection/ProjectSection";
-import Contact from "./Components/Contact/Contact";
-import Footer from './Components/Footer/Footer'
+// import ProjectSection from "./Components/ProjectSection/ProjectSection";
+// import Contact from "./Components/Contact/Contact";
+// import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -13,9 +13,9 @@ const App = () => {
     <Navbar/>
     <Hero/>
     <About/>
-   <ProjectSection />
-   <Contact/>
-<Footer/>
+   {/* <ProjectSection /> */}
+   {/* <Contact/> */}
+{/* <Footer/> */}
      
       
     

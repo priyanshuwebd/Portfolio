@@ -1,10 +1,10 @@
-/* Container for the entire section */
+/* 
 #projects {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Make sure it fills the entire viewport height */
-  background-color: #030101; /* Optional background color */
+  min-height: 100vh; 
+  background-color: #030101; 
   text-align: center;
   padding: 2rem;
 }
@@ -16,7 +16,7 @@
 }
 
 .section-title {
-  font-size: 3rem; /* Adjust title font size */
+  font-size: 3rem; 
   font-weight: bold;
   margin-bottom: 2rem;
   color: #fff;
@@ -25,7 +25,7 @@
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem; /* Adjust spacing between cards */
+  gap: 2rem; 
 }
 
 .project-card {
@@ -50,13 +50,13 @@
 }
 
 .project-card h3 {
-  font-size: 1.5rem; /* Adjust font size of project title */
+  font-size: 1.5rem; 
   color: #333;
   margin: 1rem 0;
 }
 
 .project-card p {
-  font-size: 1rem; /* Adjust description font size */
+  font-size: 1rem; 
   color: #666;
   padding: 0 1rem;
 }
@@ -91,4 +91,4 @@
 
 .source-btn:hover {
   background-color: #b474df;
-}
+} */
