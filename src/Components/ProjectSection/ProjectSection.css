@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh; /* Make sure it fills the entire viewport height */
-  background-color: #f4f4f4; /* Optional background color */
+  background-color: #030101; /* Optional background color */
   text-align: center;
   padding: 2rem;
 }
@@ -19,7 +19,7 @@
   font-size: 3rem; /* Adjust title font size */
   font-weight: bold;
   margin-bottom: 2rem;
-  color: #333;
+  color: #fff;
 }
 
 .project-grid {
@@ -78,17 +78,17 @@
 }
 
 .project-btn {
-  background-color: #007bff;
+  background-color: #c16bc4;
 }
 
 .project-btn:hover {
-  background-color: #0056b3;
+  background-color: #f09846;
 }
 
 .source-btn {
-  background-color: #28a745;
+  background-color: #e73c92;
 }
 
 .source-btn:hover {
-  background-color: #1c7c31;
+  background-color: #b474df;
 }

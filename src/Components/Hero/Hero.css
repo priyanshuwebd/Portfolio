@@ -13,17 +13,17 @@ width: 70%;
 font-size: 90px;
 font-weight: 600;
 }
-.hero h1 span{
+ .hero h1 span{
 background: linear-gradient(270deg, #df8908 10%,#B415ff 100%);
-background-clip: text;
+ background-clip: text; 
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
+-webkit-text-fill-color: transparent; 
+ }  
 .hero p {
     width: 50%;
     text-align: center;
-    font-size: 24px;
-    line-height: 40px;
+    font-size: 60px;
+    line-height: 70px;
 }
 .hero-action{
     display: flex;
@@ -52,3 +52,32 @@ background-clip: text;
 .hero-resume:hover{
     border-color: #B415ff;
 }
+
+
+.hero h1 span {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #df8908; /* Creates a cursor effect */
+    animation: typing 3s steps(30, end), blink 0.7s step-end infinite;
+  }
+  
+  /* Typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%; /* Adjust to fit the full text dynamically */
+    }
+  }
+  
+  /* Blinking cursor effect */
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  
+  
