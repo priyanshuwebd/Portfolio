@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import logo from "../../assets/logo.jpg";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
@@ -11,13 +12,13 @@ const Navbar = () => {
     if (targetSection) {
       targetSection.scrollIntoView({ behavior: "smooth" });
     }
-    setIsOpen(false); // Close the menu on mobile after clicking
+    setIsOpen(false); // Close menu on mobile after clicking
   };
 
   return (
     <nav className="navbar">
+      <img src={logo} alt="Logo" className="logo" />
       <div className="navbar-container">
-        <h1 className="navbar-logo">My Portfolio</h1>
         <button
           className="menu-toggle"
           onClick={() => setIsOpen(!isOpen)}
