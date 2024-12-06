@@ -68,23 +68,26 @@ body {
   .contact-right {
     flex: 1;
     min-width: 300px;
+    flex-direction: column;
   }
   
-  .contact-right label {
+   .contact-right label {
     display: block;
     font-size: 0.9rem;
     margin-bottom: 5px;
     color: #e02fd2;
-  }
-  
-  .contact-right input,
+  } 
+   
+   .contact-right input, 
   .contact-right textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
+    margin-right: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
+    box-sizing: border-box;
   }
   
   .contact-right textarea {
@@ -94,12 +97,13 @@ body {
   .contact-submit {
     border: none;
     color: white;
-    border-radius: 50px;
+    border-radius: 5px;
     background: linear-gradient(264deg,#DF8908 -5.09%, #B415ff 106.28%);
-    font-size: 22px;
-    padding: 20px 60px;
-    margin-bottom: 50px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-bottom: 25px;
     cursor: pointer;
+    transition: background 0.3s ease;
 
   }
   

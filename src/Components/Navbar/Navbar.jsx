@@ -37,9 +37,14 @@ const Navbar = () => {
         <li className={menu === "projects" ? "active" : ""}>
           <p onClick={() => handleScroll("projects")}>Projects</p>
         </li>
-        <li className={menu === "contact" ? "active contact-highlight" : ""}>
+        <li className={menu === "Skills" ? "active" : ""}>
+          <p onClick={() => handleScroll("Skills")}>Skills</p>
+        </li>
+
+        <li className={menu === "contact" ? "active" : ""}>
           <p onClick={() => handleScroll("contact")}>Contact</p>
         </li>
+        
       </ul>
     </nav>
   );

@@ -66,7 +66,7 @@
 }
 
 .hero-resume {
-  padding: 10px 20px;
+  padding: 20px 40px;
   border: 2px solid #b415ff;
   color: #b415ff;
   border-radius: 50px;
@@ -82,22 +82,25 @@
 
 .hero-image {
   flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 400px; /* Image width */
+  max-width: 400px;
+  margin: 20px;
 }
 
 .hero-image img {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 120%;
+  max-width: 300px; /* Limit maximum size */
+  border-radius: 50%; /* Circular image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: transform 0.3s ease;
+}
+
+.hero-image img:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
 @media (max-width: 768px) {
   .hero {
-    flex-direction: column-reverse; /* Places image below content on small screens */
+    flex-direction: column; /* Stack content on smaller screens */
     text-align: center;
   }
 
@@ -151,6 +154,7 @@
   background-size: 200%;
   opacity: 0;
 }
+
 
 @keyframes shimmer {
   0% {

@@ -39,11 +39,24 @@
 .about-para {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    font-size: 24px;
-    font-weight: 500;
-}
-
+    font-size: 23px; 
+    font-weight: 400; 
+    line-height: 1.8; 
+    color: #fff; 
+    text-align: justify; 
+    padding: 20px;
+    border-radius: 8px;
+    background: #161513; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  @media (max-width: 768px) {
+    .about-para {
+      font-size: 16px; 
+      padding: 15px; 
+    }
+  }
+  
+/* 
 .about-skills {
     display: flex;
     flex-direction: column;
@@ -76,3 +89,14 @@
     transform: scale(1.05);
     transition: 0.3s;
 }
+
+.technical-heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; 
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+  }
+   */

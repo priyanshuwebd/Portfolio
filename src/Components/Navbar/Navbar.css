@@ -10,7 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #333; /* Dark background for the navbar */
+  background-color: black;
   padding: 10px 20px;
   position: sticky;
   top: 0;
@@ -18,8 +18,10 @@ body {
 }
 
 .logo {
-  width: 120px; /* Adjust as needed */
-  height: auto; /* Maintain aspect ratio */
+  width: 90px;
+  height: auto;
+  background-color: transparent;
+  border: none;
 }
 
 /* Navbar Container */
@@ -30,7 +32,7 @@ body {
 
 /* Menu Toggle Button (Hamburger Menu for Mobile) */
 .menu-toggle {
-  display: none; /* Hidden on larger screens */
+  display: none;
   font-size: 24px;
   color: white;
   background: none;
@@ -82,17 +84,25 @@ body {
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
   .menu-toggle {
-    display: block; /* Show menu toggle on small screens */
+    display: block;
   }
 
   .nav-menu {
-    display: none; /* Hide menu by default on mobile */
+    display: none;
+  }
+
+  .nav-menu.open {
+    display: flex;
   }
 }
 
 @media screen and (min-width: 769px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+  }
+
   .nav-menu.open {
     display: flex !important;
-    flex-direction: row; /* Ensure desktop menu stays horizontal */
   }
 }

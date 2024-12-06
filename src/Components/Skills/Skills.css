@@ -1,0 +1,80 @@
+/* Skills Section */
+.skills {
+    padding: 50px 20px;
+    background-color: #0e0c0c; /* Light background for the section */
+    text-align: center; /* Center-align content */
+}
+
+.skills-container {
+    max-width: 1200px; /* Limit width for larger screens */
+    margin: 0 auto; /* Center container */
+    padding: 20px;
+}
+
+.skills-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Space between items */
+    justify-items: center;
+    align-items: center;
+}
+
+.skill {
+    background: #fff; /* White background for each skill box */
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    width: 100%;
+    max-width: 300px; /* Limit width for skill boxes */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
+}
+
+.skill:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.skill p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 10px;
+    color: black; /* Subtle text color */
+}
+
+.skill hr {
+    height: 5px;
+    background-color: #f70abb; /* Custom highlight color */
+    border: none;
+    border-radius: 2px;
+    margin: 0 auto;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .skills-heading {
+        font-size: 24px;
+    }
+
+    .skills-list {
+        gap: 15px;
+    }
+
+    .skill {
+        padding: 10px 15px;
+    }
+
+    .skill p {
+        font-size: 16px;
+    }
+}
+
