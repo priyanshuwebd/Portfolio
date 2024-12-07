@@ -190,7 +190,7 @@ h3 {
 
 @media (max-width: 480px) {
   .hero {
-    height: 90vh !important;
+    height: 82vh !important;
   }
 
   .animated-text {
