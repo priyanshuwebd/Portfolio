@@ -6,11 +6,25 @@ const Navbar = () => {
   const [menu, setMenu] = useState("home");
   const [isOpen, setIsOpen] = useState(false);
 
+  // const handleScroll = (section) => {
+  //   setMenu(section);
+  //   const targetSection = document.getElementById(section);
+  //   if (targetSection) {
+  //     targetSection.scrollIntoView({ behavior: "smooth" });
+  //   }
+  //   setIsOpen(false); // Close menu on mobile after clicking
+  // };
+
   const handleScroll = (section) => {
     setMenu(section);
     const targetSection = document.getElementById(section);
     if (targetSection) {
-      targetSection.scrollIntoView({ behavior: "smooth" });
+      // Adjusting for fixed navbar height (e.g., 80px)
+      const navbarHeight = document.querySelector(".navbar").offsetHeight;
+      window.scrollTo({
+        top: targetSection.offsetTop - navbarHeight, // Scroll position minus navbar height
+        behavior: "smooth",
+      });
     }
     setIsOpen(false); // Close menu on mobile after clicking
   };
@@ -44,7 +58,6 @@ const Navbar = () => {
         <li className={menu === "contact" ? "active" : ""}>
           <p onClick={() => handleScroll("contact")}>Contact</p>
         </li>
-        
       </ul>
     </nav>
   );
