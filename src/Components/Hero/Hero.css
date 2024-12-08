@@ -83,19 +83,21 @@
 .hero-image {
   flex: 1;
   max-width: 400px;
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 .hero-image img {
-  width: 120%;
-  max-width: 300px; /* Limit maximum size */
-  border-radius: 50%; /* Circular image */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .hero-image img:hover {
-  transform: scale(1.05); /* Slight zoom effect on hover */
+  transform: scale(1.1); /* Zoom on hover */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
 }
 
 @media (max-width: 768px) {
@@ -105,7 +107,7 @@
   }
 
   .hero-content {
-    max-width: 100%;
+    margin-bottom: 20px;
   }
 
   .hero-image img {

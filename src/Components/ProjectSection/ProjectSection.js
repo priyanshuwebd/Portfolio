@@ -35,7 +35,7 @@ const projects = [
     description: "Short description of Project 3.",
     image: project3,
     projectLink: "https://github.com/priyanshuwebd/TodoList",
-    sourceCode: "https://github.com/priyanshuwebd/TodoList",
+    sourceCode: "https://github.com/priyanshuwebd/Todo-list",
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const projects = [
     description: "Short description of Project 4.",
     image: project4,
     projectLink: "https://link-to-project4.jpg",
-    sourceCode: "https://github.com/priyanshuwebd/Menu",
+    sourceCode: "https://github.com/priyanshuwebd/Menu-",
   },
   {
     id: 5,
@@ -67,7 +67,7 @@ const projects = [
     description: "Short description of Project 7.",
     image: project7,
     projectLink: "https://link-to-project7.jpg",
-    sourceCode: "https://github.com/priyanshuwebd/Pokemon-Card",
+    sourceCode: "https://github.com/priyanshuwebd/pokemon-card",
   },
   {
     id: 8,
@@ -83,7 +83,7 @@ const projects = [
     description: "Short description of Project 10.",
     image: project10,
     projectLink: "https://link-to-project10.jpg",
-    sourceCode: "https://github.com/priyanshuwebd/Restaurant",
+    sourceCode: "https://github.com/priyanshuwebd/resturant",
   },
   {
     id: 11,
@@ -91,7 +91,7 @@ const projects = [
     description: "Short description of Project 11.",
     image: project11,
     projectLink: "https://link-to-project11.jpg",
-    sourceCode: "https://github.com/priyanshuwebd/Random-Image",
+    sourceCode: "https://github.com/priyanshuwebd/Randome-Image",
   },
 ];
 

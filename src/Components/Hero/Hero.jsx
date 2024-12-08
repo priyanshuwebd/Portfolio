@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import profilepicture from "../../assets/profile-picture.jpg"; // Ensure this is the correct path
+import profilepicture from "../../assets/profile-picture.jpg";
 
 const Hero = () => {
   const handleScrollToContact = () => {
@@ -15,8 +15,8 @@ const Hero = () => {
       <div className="hero-content">
         <h1>
           <span className="animated-text">I'm Priyanshu Pande,</span>
-          <h5>From India</h5>
         </h1>
+        <h5>From India</h5>
         <h3>Front-End Developer</h3>
         <div className="hero-action">
           <button className="hero-connect" onClick={handleScrollToContact}>
@@ -28,16 +28,17 @@ const Hero = () => {
             download="Priyanshu_Pande_Resume.pdf"
             className="hero-resume"
           >
-           My Resume
+            My Resume
           </a>
         </div>
-      </div>
+        <div className="hero-image">
+  <img
+    src={profilepicture}
+    alt="Priyanshu Pande"
+   
+  />
+</div>
 
-      <div className="hero-image">  
-        <img
-          src={profilepicture} // Use the imported image variable here
-          alt="Priyanshu Pande"
-        />
       </div>
     </div>
   );
