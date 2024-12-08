@@ -49,7 +49,7 @@ const projects = [
     title: "Increment-Decrement",
     description: "A simple app to demonstrate increment and decrement functionality.",
     image: project5,
-    projectLink: "https://link-to-project5.png",
+    projectLink: "https://transcendent-jelly-95c340.netlify.app/",
     sourceCode: "https://github.com/priyanshuwebd/Increment-Decrement",
   },
   {
