@@ -9,7 +9,7 @@ import project6 from "../../assets/project6.jpg";
 import project7 from "../../assets/project7.jpg";
 import project8 from "../../assets/project8.jpg";
 import project10 from "../../assets/project10.jpg";
-import project11 from "../../assets/project11.jpg";
+// import project11 from "../../assets/project11.jpg";
 
 const projects = [
   {
@@ -84,14 +84,14 @@ const projects = [
     projectLink: "https://link-to-project10.jpg",
     sourceCode: "https://github.com/priyanshuwebd/resturant",
   },
-  {
-    id: 11,
-    title: "Random Image",
-    description: "Displays a random image from an API.",
-    image: project11,
-    projectLink: "https://link-to-project11.jpg",
-    sourceCode: "https://github.com/priyanshuwebd/Randome-Image",
-  },
+  // {
+  //   id: 11,
+  //   title: "Random Image",
+  //   description: "Displays a random image from an API.",
+  //   image: project11,
+  //   projectLink: "https://link-to-project11.jpg",
+  //   sourceCode: "https://github.com/priyanshuwebd/Randome-Image",
+  // },
 ];
 
 function ProjectSection() {
