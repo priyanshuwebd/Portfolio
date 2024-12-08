@@ -25,7 +25,7 @@ const projects = [
     title: "Slider",
     description: "An image slider component built with React.",
     image: project2,
-    projectLink: "https://link-to-project2.jpg",
+    projectLink: "https://jolly-lamington-7d51bb.netlify.app/",
     sourceCode: "https://github.com/priyanshuwebd/Slider",
   },
   {
@@ -58,7 +58,7 @@ const projects = [
     description: "A gallery app that fetches random images from an API.",
     image: project6,
     projectLink: "https://link-to-project6.jpg",
-    sourceCode: "https://github.com/priyanshuwebd/Photogallery",
+    sourceCode: "https://github.com/priyanshuwebd/Photogellary",
   },
   {
     id: 7,
@@ -66,7 +66,7 @@ const projects = [
     description: "A card-based UI displaying information about Pokemon.",
     image: project7,
     projectLink: "https://link-to-project7.jpg",
-    sourceCode: "https://github.com/priyanshuwebd/pokemon-card",
+    sourceCode: "https://github.com/priyanshuwebd/pokemaon-card",
   },
   {
     id: 8,
