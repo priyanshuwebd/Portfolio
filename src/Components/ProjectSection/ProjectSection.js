@@ -65,7 +65,7 @@ const projects = [
     title: "Pokemon Card",
     description: "A card-based UI displaying information about Pokemon.",
     image: project7,
-    projectLink: "https://link-to-project7.jpg",
+    projectLink: "https://chimerical-genie-fe871a.netlify.app/",
     sourceCode: "https://github.com/priyanshuwebd/pokemaon-card",
   },
   {
