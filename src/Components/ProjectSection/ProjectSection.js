@@ -8,7 +8,6 @@ import project5 from "../../assets/project5.png";
 import project6 from "../../assets/project6.jpg";
 import project7 from "../../assets/project7.jpg";
 import project8 from "../../assets/project8.jpg";
-
 import project10 from "../../assets/project10.jpg";
 import project11 from "../../assets/project11.jpg";
 
@@ -16,7 +15,7 @@ const projects = [
   {
     id: 1,
     title: "Birthday Reminder",
-    description: "Short description of Project 1.",
+    description: "A simple app to remind you about birthdays.",
     image: project1,
     projectLink: "https://github.com/priyanshuwebd/Birthday-Reminder",
     sourceCode: "https://github.com/priyanshuwebd/Birthday-Reminder",
@@ -24,7 +23,7 @@ const projects = [
   {
     id: 2,
     title: "Slider",
-    description: "Short description of Project 2.",
+    description: "An image slider component built with React.",
     image: project2,
     projectLink: "https://link-to-project2.jpg",
     sourceCode: "https://github.com/priyanshuwebd/Slider",
@@ -32,7 +31,7 @@ const projects = [
   {
     id: 3,
     title: "ToDo List",
-    description: "Short description of Project 3.",
+    description: "A task management app built with React.",
     image: project3,
     projectLink: "https://github.com/priyanshuwebd/TodoList",
     sourceCode: "https://github.com/priyanshuwebd/Todo-list",
@@ -40,7 +39,7 @@ const projects = [
   {
     id: 4,
     title: "Menu",
-    description: "Short description of Project 4.",
+    description: "A simple menu app built with React.",
     image: project4,
     projectLink: "https://link-to-project4.jpg",
     sourceCode: "https://github.com/priyanshuwebd/Menu-",
@@ -48,7 +47,7 @@ const projects = [
   {
     id: 5,
     title: "Increment-Decrement",
-    description: "Short description of Project 5.",
+    description: "A simple app to demonstrate increment and decrement functionality.",
     image: project5,
     projectLink: "https://link-to-project5.png",
     sourceCode: "https://github.com/priyanshuwebd/Increment-Decrement",
@@ -56,7 +55,7 @@ const projects = [
   {
     id: 6,
     title: "Random Photogallery",
-    description: "Short description of Project 6.",
+    description: "A gallery app that fetches random images from an API.",
     image: project6,
     projectLink: "https://link-to-project6.jpg",
     sourceCode: "https://github.com/priyanshuwebd/Photogallery",
@@ -64,7 +63,7 @@ const projects = [
   {
     id: 7,
     title: "Pokemon Card",
-    description: "Short description of Project 7.",
+    description: "A card-based UI displaying information about Pokemon.",
     image: project7,
     projectLink: "https://link-to-project7.jpg",
     sourceCode: "https://github.com/priyanshuwebd/pokemon-card",
@@ -72,7 +71,7 @@ const projects = [
   {
     id: 8,
     title: "Netflix",
-    description: "Short description of Project 8.",
+    description: "A Netflix-like clone built with React.",
     image: project8,
     projectLink: "https://link-to-project8.jpg",
     sourceCode: "https://github.com/priyanshuwebd/Netflix",
@@ -80,7 +79,7 @@ const projects = [
   {
     id: 10,
     title: "Restaurant",
-    description: "Short description of Project 10.",
+    description: "A restaurant website UI with menu items.",
     image: project10,
     projectLink: "https://link-to-project10.jpg",
     sourceCode: "https://github.com/priyanshuwebd/resturant",
@@ -88,7 +87,7 @@ const projects = [
   {
     id: 11,
     title: "Random Image",
-    description: "Short description of Project 11.",
+    description: "Displays a random image from an API.",
     image: project11,
     projectLink: "https://link-to-project11.jpg",
     sourceCode: "https://github.com/priyanshuwebd/Randome-Image",
