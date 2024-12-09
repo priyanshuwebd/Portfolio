@@ -4,7 +4,7 @@ import project1 from "../../assets/project1.png";
 import project2 from "../../assets/project2.jpg";
 import project3 from "../../assets/project3.jpg";
 import project4 from "../../assets/project4.jpg"; // Ensure this file exists
-import project5 from "../../assets/project5.png";
+import project5 from "../../assets/project5.jpg";
 import project6 from "../../assets/project6.jpg";
 import project7 from "../../assets/project7.jpg";
 import project8 from "../../assets/project8.jpg";
@@ -45,14 +45,14 @@ const projects = [
     sourceCode: "https://github.com/priyanshuwebd/Reviews",
   },
 
-  // {
-  //   id: 5,
-  //   title: "Menu card",
-  //   description: "A simple app to demonstrate increment and decrement functionality.",
-  //   image: project5,
-  //   projectLink: "https://unrivaled-cassata-a9408c.netlify.app/",
-  //   sourceCode: "https://github.com/priyanshuwebd/Increment-Decrement",
-  // },
+  {
+    id: 5,
+    title: "Food Menu",
+    description: "A simple app to demonstrate increment and decrement functionality.",
+    image: project5,
+    projectLink: "https://unrivaled-cassata-a9408c.netlify.app/",
+    sourceCode: "https://github.com/priyanshuwebd/Increment-Decrement",
+  },
   // {
   //   id: 5,
   //   title: "Increment-Decrement",
