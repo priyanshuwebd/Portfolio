@@ -3,7 +3,7 @@ import "./ProjectSection.css";
 import project1 from "../../assets/project1.png";
 import project2 from "../../assets/project2.jpg";
 import project3 from "../../assets/project3.jpg";
-// import project4 from "../../assets/project4.jpg";
+import project4 from "../../assets/project4.jpg"; // Ensure this file exists
 import project5 from "../../assets/project5.png";
 import project6 from "../../assets/project6.jpg";
 import project7 from "../../assets/project7.jpg";
@@ -35,12 +35,12 @@ const projects = [
     image: project3,
     projectLink: "https://musical-douhua-7aa0ee.netlify.app/",
     sourceCode: "https://github.com/priyanshuwebd/Todo-list",
-   },
+  },
   {
     id: 4,
-    title: "Rewiews",
-    description: "",
-    image: project4,
+    title: "Reviews",
+    description: "A user review component in React.",
+    image: project4, // Ensure this path is correct
     projectLink: "https://glistening-gumdrop-6011c1.netlify.app/",
     sourceCode: "https://github.com/priyanshuwebd/Reviews",
   },
@@ -84,14 +84,6 @@ const projects = [
     projectLink: "https://link-to-project10.jpg",
     sourceCode: "https://github.com/priyanshuwebd/resturant",
   },
-  // {
-  //   id: 11,
-  //   title: "Random Image",
-  //   description: "Displays a random image from an API.",
-  //   image: project11,
-  //   projectLink: "https://link-to-project11.jpg",
-  //   sourceCode: "https://github.com/priyanshuwebd/Randome-Image",
-  // },
 ];
 
 function ProjectSection() {
@@ -106,9 +98,13 @@ function ProjectSection() {
                 src={project.image}
                 alt={project.title}
                 className="project-image"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = "https://via.placeholder.com/300"; // Fallback image
+                }}
               />
               <h3>{project.title}</h3>
-              <p>{project.description}</p>
+              <p>{project.description || "No description provided."}</p>
               <div className="project-buttons">
                 <a
                   href={project.projectLink}
