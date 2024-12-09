@@ -51,7 +51,7 @@ const projects = [
     description: "A simple app to demonstrate increment and decrement functionality.",
     image: project5,
     projectLink: "https://unrivaled-cassata-a9408c.netlify.app/",
-    sourceCode: "https://github.com/priyanshuwebd/Increment-Decrement",
+    sourceCode: "https://github.com/priyanshuwebd/Photogellary",
   },
   // {
   //   id: 5,
