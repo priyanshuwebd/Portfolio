@@ -5,7 +5,7 @@ import project2 from "../../assets/project2.jpg";
 import project3 from "../../assets/project3.jpg";
 import project4 from "../../assets/project4.jpg"; // Ensure this file exists
 import project5 from "../../assets/project5.jpg";
-import project6 from "../../assets/project6.jpg";
+// import project6 from "../../assets/project6.jpg";
 import project7 from "../../assets/project7.jpg";
 import project8 from "../../assets/project8.jpg";
 import project10 from "../../assets/project10.jpg";
@@ -61,14 +61,14 @@ const projects = [
   //   projectLink: "https://transcendent-jelly-95c340.netlify.app/",
   //   sourceCode: "https://github.com/priyanshuwebd/Increment-Decrement",
   // },
-  {
-    id: 6,
-    title: "Random Photogallery",
-    description: "A gallery app that fetches random images from an API.",
-    image: project6,
-    projectLink: "https://link-to-project6.jpg",
-    sourceCode: "https://github.com/priyanshuwebd/Photogellary",
-  },
+  // {
+  //   id: 6,
+  //   title: "Random Photogallery",
+  //   description: "A gallery app that fetches random images from an API.",
+  //   image: project6,
+  //   projectLink: "https://link-to-project6.jpg",
+  //   sourceCode: "https://github.com/priyanshuwebd/Photogellary",
+  // },
   {
     id: 7,
     title: "Pokemon Card",
