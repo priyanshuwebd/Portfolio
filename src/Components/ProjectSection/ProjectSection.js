@@ -33,7 +33,7 @@ const projects = [
     title: "ToDo List",
     description: "A task management app built with React.",
     image: project3,
-    projectLink: "https://github.com/priyanshuwebd/TodoList",
+    projectLink: "https://musical-douhua-7aa0ee.netlify.app/",
     sourceCode: "https://github.com/priyanshuwebd/Todo-list",
   },
   {
