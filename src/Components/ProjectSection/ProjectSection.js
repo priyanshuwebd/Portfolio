@@ -17,7 +17,7 @@ const projects = [
     title: "Birthday Reminder",
     description: "A simple app to remind you about birthdays.",
     image: project1,
-    projectLink: "https://github.com/priyanshuwebd/Birthday-Reminder",
+    projectLink: "https://charming-melomakarona-a3a697.netlify.app/",
     sourceCode: "https://github.com/priyanshuwebd/Birthday-Reminder",
   },
   {
